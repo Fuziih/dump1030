@@ -496,10 +496,10 @@ void detectMode(uint8_t *m) {
                         }
                         printf("\n\n");
                     }
-                }
                 i += 56;
                 Modes.order[o] = 10 + Modes.type; /* 10 --> no p4 */
                 o++;
+                }
             }
         next_loop:
             continue;
